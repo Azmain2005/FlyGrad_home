@@ -1,0 +1,7 @@
+export {default as Hero } from './Hero.jsx'
+export {default as Team} from './Team.jsx'
+export {default as Footer} from './Footer.jsx'
+export {default as Gallery} from './Gallery.jsx'
+export {default as TopBar} from './topBar'
+export {default as Testimonials} from './Testiominals.jsx'
+export {default as Faq} from './Faq.jsx'
