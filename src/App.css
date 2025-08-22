@@ -1,0 +1,32 @@
+.container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 72rem !important;
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}
+
+
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-inner {
+  animation: marqueeScroll 25s linear infinite;
+}
+
+.marquee-reverse {
+  animation-direction: reverse;
+}
+
+/* Make it faster on small screens */
+@media (max-width: 640px) {
+  .marquee-inner {
+    animation-duration: 6s; /* or even 10s for faster scroll */
+  }
+}
