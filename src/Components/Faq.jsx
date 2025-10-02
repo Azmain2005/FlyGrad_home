@@ -4,6 +4,26 @@ export default function Faq() {
     const [openIndex, setOpenIndex] = React.useState(null)
     const faqsData = [
         {
+            question: 'What if I face a technical issue on the website?',
+            answer: 'For any technical issues like trouble logging in, uploading files, or accessing a purchased service, please contact our support team immediately at flygradtech@gmail.com. We typically respond within a few business hours.'
+        },
+        {
+            question: 'Is my personal and academic information kept confidential?',
+            answer: 'Absolutely. We have a strict privacy policy. All your documents and information are stored on our secure servers and are never shared with any third parties without your explicit consent.'
+        },
+        {
+            question: 'How to get the maximum result from gradwhisper?',
+            answer: 'Just make sure you plug in a very good prompt for maximum output. You may follow our page Flygrad on both Facebook and Instagram where we will be posting about such prompts on a weekly basis.'
+        },
+        {
+            question: 'What if I am not satisfied with the feedback I receive?',
+            answer: 'At the end of the day, it is an AI which will assist you in being confident about your journey by being with you in every step but it cannot replace your hunch. Prioritise your own intuition over anything at any time.'
+        },
+        {
+            question: 'Is it 100% reliable? ',
+            answer: 'We have trained this AI with all the existing up to dated datasets we had for reviews and roadmaps. For the University informations, it surfs existing sites and gives you the exact information you want with sources from it. We have tried our level best to keep it as authentic as possible but it is an AI. So, it is recommended to double check before you make any life changing decisions.'
+        },
+        {
             question: 'Lightning-Fast Performance',
             answer: 'Built with speed — minimal load times and optimized rendering.'
         },
