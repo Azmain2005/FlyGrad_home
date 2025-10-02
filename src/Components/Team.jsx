@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 const teamMembers = [
   {
     name: "Zarrin Fariha",
+<<<<<<< HEAD
     role: "Founder, CEO",
     bio: "I love what I build and I build what I love.",
     image: "https://i.postimg.cc/1RbxTYsX/Picsart-25-09-10-00-32-58-232.jpg",
@@ -41,6 +42,37 @@ const teamMembers = [
     image: " https://i.postimg.cc/yxjSLbyX/melkh.jpg ",
     email: "redwanhossainminhaj@gmail.com",
     whatsapp: "8801314018801",
+=======
+    role: "Marketing Lead",
+    bio: "CEO, Founder.",
+    image: "https://i.postimg.cc/5yZkBcm1/Screenshot-from-2025-08-19-15-15-57.png",
+    email: "alice@example.com",
+    whatsapp: "15551234561",
+  },
+  {
+    name: "Azmain Mahtab",
+    role: "Website developer, UI designer, AI developer.",
+    bio: "Loves developing.",
+    image: "https://i.postimg.cc/J4yZN9sD/Whats-App-Image-2025-08-19-at-11-10-32-PM.jpg",
+    email: "azmain.2005.mahtab@gmail.com",
+    whatsapp: "01905151803",
+  },
+  {
+    name: "Fairooz Binta Kabir",
+    role: "Advisor",
+    bio: "Designs intuitive and user-friendly interfaces.",
+    image: "https://i.postimg.cc/nrK8gdzv/Whats-App-Image-2025-08-19-at-10-31-46-PM.jpg",
+    email: "clara@example.com",
+    whatsapp: "15551234563",
+  },
+  {
+    name: "Abdullah Al Abir",
+    role: "Developer",
+    bio: "MSE, RUET.",
+    image: "https://i.postimg.cc/XNT2Dbw6/Whats-App-Image-2025-08-19-at-00-11-48-cf403f61.pngg",
+    email: "david@example.com",
+    whatsapp: "15551234564",
+>>>>>>> 11e743c8c449da744d69600f5585bff908a6d1ec
   },
 ];
 
@@ -72,7 +104,11 @@ const Team = () => {
         transition={{ delay: 0.5, duration: 1 }}
         className="w-3/5 mb-14 text-white text-sm"
       >
+<<<<<<< HEAD
         A team of passionate innovators dedicated to building meaningful solutions through creativity, technology, and collaboration.
+=======
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+>>>>>>> 11e743c8c449da744d69600f5585bff908a6d1ec
       </motion.p>
 
       <motion.div
@@ -102,7 +138,11 @@ const Team = () => {
             </p>
 
             <div className="flex items-center space-x-6 mt-6 text-gray-500 group-hover:text-white">
+<<<<<<< HEAD
               <a href={`mailto:${member.email.trim()}`} className="hover:scale-110 transition-transform" aria-label="Send Email">
+=======
+              <a href={`mailto:${member.email}`} className="hover:scale-110 transition-transform" aria-label="Send Email">
+>>>>>>> 11e743c8c449da744d69600f5585bff908a6d1ec
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 2v.01L12 13l8-6.99V6H4z" />
                 </svg>
