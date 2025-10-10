@@ -23,26 +23,7 @@ export default function Faq() {
             question: 'Is it 100% reliable? ',
             answer: 'We have trained this AI with all the existing up to dated datasets we had for reviews and roadmaps. For the University informations, it surfs existing sites and gives you the exact information you want with sources from it. We have tried our level best to keep it as authentic as possible but it is an AI. So, it is recommended to double check before you make any life changing decisions.'
         },
-        {
-            question: 'Lightning-Fast Performance',
-            answer: 'Built with speed — minimal load times and optimized rendering.'
-        },
-        {
-            question: 'Fully Customizable Components',
-            answer: 'Easily adjust styles, structure, and behavior to match your project needs.'
-        },
-        {
-            question: 'Responsive by Default',
-            answer: 'Every component are responsive by default — no extra CSS required.'
-        },
-        {
-            question: 'Tailwind CSS Powered',
-            answer: 'Built using Tailwind utility classes — no extra CSS or frameworks required.'
-        },
-        {
-            question: 'Dark Mode Support',
-            answer: 'All components come ready with light and dark theme support out of the box.'
-        }
+        
     ]
   return (
     <div>
