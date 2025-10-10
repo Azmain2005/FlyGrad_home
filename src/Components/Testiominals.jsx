@@ -5,27 +5,31 @@ export default function Testiominals() {
     const cardsData = [
         {
             image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200',
-            name: 'Briar Martin',
-            handle: '@neilstellar',
-            date: 'April 20, 2025'
+            name: 'Ahmed Rafad ',
+            handle: '@AhmedRafad',
+            date: 'April 20, 2025',
+            review: 'Super intuitive . It edited my essays, reported deadlines, and explained visa steps like a mentor would. Totally worth it.'
         },
         {
             image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200',
-            name: 'Avery Johnson',
-            handle: '@averywrites',
-            date: 'May 10, 2025'
+            name: 'Mushfiqur Rahman ',
+            handle: '@MushfiqurRahman',
+            date: 'May 10, 2025',
+            review: 'Fast, accurate, and surprisingly human. The essay feedback alone boosted my confidence before deadlines'
         },
         {
             image: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=200&auto=format&fit=crop&q=60',
-            name: 'Jordan Lee',
-            handle: '@jordantalks',
-            date: 'June 5, 2025'
+            name: 'Anjum Aurpa ',
+            handle: '@AnjumAurpa',
+            date: 'June 5, 2025',
+            review: '3. Smooth and smart navigation, loved it.'
         },
         {
             image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=200&auto=format&fit=crop&q=60',
             name: 'Avery Johnson',
             handle: '@averywrites',
-            date: 'May 10, 2025'
+            date: 'May 10, 2025',
+            review: 'Super intuitive . It edited my essays, reported deadlines, and explained visa steps like a mentor would. Totally worth it.'
         },
     ];
 
@@ -43,8 +47,7 @@ export default function Testiominals() {
                     <span className="text-xs text-slate-300">{card.handle}</span>
                 </div>
             </div>
-            <p className="text-sm py-4 text-white">Radiant made undercutting all of our competitors an absolute
-                breeze.</p>
+            <p className="text-sm py-4 text-white">{card.review}</p>
             <div className="flex items-center justify-between text-slate-500 text-xs">
                 <div className="flex items-center gap-1">
                     <span>Posted on</span>
@@ -64,7 +67,7 @@ export default function Testiominals() {
         <div id='testiominal' className=' mt-30 bg-gray-950 bg-opacity-50'>
             <hr className="w-full max-w-5xl mx-auto border-t border-gray-500 my-8" />
             <div className='text-white text-4xl font-bold'>
-                Our happy clients say about us
+                Our happy users say about us
             </div>
             <div className="marquee-row w-full mx-auto max-w-full overflow-hidden relative">
                 <div className="absolute left-0 top-0 h-full w-5 z-10 pointer-events-none bg-gradient-to-r from-purple-950 to-transparent"></div>
