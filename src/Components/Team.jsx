@@ -13,7 +13,7 @@ const teamMembers = [
   {
     name: "Azmain Mahtab",
     role: "Co-founder,CTO ",
-    bio: "Just crafting smart solutions for world in Web, UI, ROBOTICS and AI.",
+    bio: "Just crafting smart solutions in Web, UI, ROBOTICS and AI.",
     image: "https://i.postimg.cc/G2tkp9tY/IMG20240228133148.png",
     email: "azmain.2005.mahtab@gmail.com",
     whatsapp: "8801905151803",
@@ -21,7 +21,7 @@ const teamMembers = [
   {
     name: "Fairooz Binta Kabir",
     role: "Co-founder,CFO",
-    bio: "Guiding companies with integrity, precision, and forward-thinking financial strategies.",
+    bio: "Guiding companies with precision financial strategies.",
     image: "https://i.postimg.cc/5tyQWQgx/IMG-20250901-WA0025.jpg",
     email: "fairooz.main@gmail.com",
     whatsapp: "8801925154660",
@@ -37,7 +37,7 @@ const teamMembers = [
   {
     name: "Redwan Hossain",
     role: " CMO ",
-    bio: "Creating Brand Identity !",
+    bio: "Creating Powerful Brand Identity!",
     image: " https://i.postimg.cc/yxjSLbyX/melkh.jpg ",
     email: "redwanhossainminhaj@gmail.com",
     whatsapp: "8801314018801",
