@@ -36,7 +36,7 @@ export default function Testiominals() {
     const CreateCard = ({ card }) => (
         <div className="p-4 rounded-lg mx-4 shadow hover:shadow-slate-400 transition-all duration-200 w-ful shrink-0">
             <div className="flex gap-2">
-                <img className="size-11 rounded-full" src={card.image} alt="User Image" />
+                
                 <div className="flex flex-col">
                     <div className="flex items-center gap-1">
                         <p>{card.name}</p>
