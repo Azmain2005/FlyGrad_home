@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 
-import heroImage from "../assets/heroBanner.png";
 import { IoTimeSharp } from "react-icons/io5";
 import { FaBookOpen } from "react-icons/fa";
 import { FaSchool } from "react-icons/fa";
-import image from "../assets/text.svg";
+import image from "../assets/FlyGradLogo.png";
 
 function Hero() {
   useEffect(() => {
@@ -66,6 +65,7 @@ function Hero() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8 }}
+              width={200}
             />
           </a>
 
@@ -75,11 +75,11 @@ function Hero() {
           >
             {[
               { name: "Home", href: "/" },
-              { name: "gradWhisper", href: "https://chat.flygrad.tech/" },
-              { name: "versity news", href: "https://chat.flygrad.tech/news" },
+              { name: "GradWhisper", href: "https://chat.flygrad.tech/" },
+              // { name: "versity news", href: "https://chat.flygrad.tech/news" },
               { name: "Team", href: "#team" },
-              { name: "testiominal", href: "#testiominal" },
-              { name: "fAQ", href: "#FAQ" },
+              { name: "Reviews", href: "#testiominal" },
+              { name: "FAQ", href: "#FAQ" },
             ].map((link, i) => (
               <motion.a
                 key={i}
